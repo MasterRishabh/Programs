@@ -1,0 +1,45 @@
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
+public class Prog {
+
+	public static void main(String[] args) {
+		
+		Map<String, String> numToWord = new HashMap<>();
+		numToWord.put("1", "One");
+		numToWord.put("2", "Two");
+		numToWord.put("3", "Three");
+		numToWord.put("4", "Four");
+		numToWord.put("5", "Five");
+		numToWord.put("6", "Six");
+		numToWord.put("7", "Seven");
+		numToWord.put("8", "Eight");
+		numToWord.put("9", "Nine");
+		
+		Map<String, String> tensToWord = new HashMap<>();
+		tensToWord.put("1", "teen");
+		tensToWord.put("2", "Twenty");
+		tensToWord.put("3", "Thirty");
+		tensToWord.put("4", "Forty");
+		tensToWord.put("5", "Fifty");
+		tensToWord.put("6", "Sixty");
+		tensToWord.put("7", "Seventy");
+		tensToWord.put("8", "Eighty");
+		tensToWord.put("9", "Ninety");
+		
+		String [] digitPlace = {"ones", "ten", "hundred", "thousand", "tenThousand"};
+		
+		Scanner scan = new Scanner(System.in);
+	    String input = scan.next();
+	    
+	   for (int i = input.length()-1; i >= 0; i--) {
+		   
+	   }
+	    
+		
+	}
+
+}
+
+
